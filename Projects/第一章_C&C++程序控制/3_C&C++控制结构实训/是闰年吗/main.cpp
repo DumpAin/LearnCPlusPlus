@@ -1,31 +1,18 @@
+#include <stdio.h>
 #include <iostream>
 using namespace std;
 
-int main() {
-	int year = 0;
-	cin >> year;
-
-		if (year%400 == 0)
-		{
-			cout << "Yes";
-		}
-		 else
-		{
-			if (year%4 == 0)
-			{
-				if (year%100 == 0)
-				{
-					cout << "No";
-				}
-				 else
-				{
-					cout << "Yes";
-				}
-			}
-			 else
-			{
-				cout << "No";
-			}
-		}
-	return 0;
+int main()
+{
+    int year = 0, ys = 0;
+    cin >> year;
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+    {
+            cout << "Yes" << endl;
+    }
+        else
+    {
+            cout << "No" << endl;
+    }
+    return 0;
 }
