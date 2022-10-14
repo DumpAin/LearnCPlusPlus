@@ -1,4 +1,4 @@
-// °üº¬Á½ÖÖI/O¿â£¬¿ÉÒÔÊ¹ÓÃÈÎÒ»ÖÖÊäÈëÊä³ö·½Ê½
+// åŒ…å«ä¸¤ç§I/Oåº“ï¼Œå¯ä»¥ä½¿ç”¨ä»»ä¸€ç§è¾“å…¥è¾“å‡ºæ–¹å¼
 #include <stdio.h>
 #include <iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main()
 			}
 			else
 			{
-				if ((n%i != 0) && ((i+1) == n))
+				if ((n % i != 0) && ((i + 1) == n))
 				{
 				cout << "Yes";
 				}
